@@ -1,6 +1,32 @@
-p {
-    background-color: green;
+/* Color Picker */
+body {
+    font-family: sans-serif;
 }
-h1 {
-    background-color: blue;
+.color-picker-container {
+    border: 1px solid red;
+
+    margin: 50px 400px 50px 400px;
+    height: 80vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    padding: 10px;
+    /* border-radius: 10px; */
+    font-size: 20px;
+}
+.color-display {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.color-picker-container input {
+    width: 25%;
+    height: 50px;
 }

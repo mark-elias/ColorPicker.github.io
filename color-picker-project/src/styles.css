@@ -1,32 +1,33 @@
 /* Color Picker */
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 .color-picker-container {
-    border: 1px solid red;
-
-    margin: 50px 400px 50px 400px;
-    height: 80vh;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    /* background-color: white; */
-    padding: 10px;
-    /* border-radius: 10px; */
-    font-size: 20px;
 }
+/* Tablet styles (768px and above) */
+@media only screen and (min-width: 768px) {
+}
+/* Desktop styles (1024px and above) */
+@media only screen and (min-width: 1024px) {
+}
+
 .color-display {
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+/* Tablet styles (768px and above) */
+@media only screen and (min-width: 768px) {
+}
+/* Desktop styles (1024px and above) */
+@media only screen and (min-width: 1024px) {
 }
 .color-picker-container input {
-    width: 25%;
-    height: 50px;
+  width: 25%;
+  height: 50px;
 }
